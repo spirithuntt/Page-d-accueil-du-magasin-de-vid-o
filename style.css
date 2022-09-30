@@ -1,0 +1,91 @@
+*{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ul{
+  list-style-type: none;
+  padding:0px 
+  margin: 0px;
+  overflow: hidden;
+}
+
+ol{
+  list-style-type: none;
+  padding: 10px;
+  margin: 0px;
+  overflow: hidden;
+}
+li a{
+  float: left;
+  display:flex;
+  color:black;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+}
+li a:hover{
+  background-color: #d3b7b7;
+}
+li a.dash:hover{
+  background:none;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 350px;
+  margin: auto;
+  font-family: arial;
+  background-color: #ece4e3;
+}
+
+.RRP{
+  color: grey;
+  font-size: 12px;
+}
+.pay{
+  color: rgb(0, 0, 0);
+  font-size: 12px;
+}
+.saving{
+  color: rgb(4, 171, 65);
+  font-size: 12px;
+}
+.content{
+  padding:10px
+}
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  width: 100%;
+  font-size: 18px;
+}
+.card button:hover{
+  background-color: #d3b7b7;}
+  .row{
+    display: flex;
+  }
+.nav
+{
+  display: flex;
+  align-items: center;
+}
+.box-logo
+{
+  float: left;
+  display:flex;
+  color:black;
+  width: 300px;
+  padding: 25px;
+  box-sizing: border-box;
+  text-align: center;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+}
+.paragraphe
+{
+  padding: 10px 20px;
+}
